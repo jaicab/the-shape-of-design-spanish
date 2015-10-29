@@ -1,0 +1,154 @@
+body {
+  font-family: ff-quadraat-web, Georgia, serif;
+  font-size: 21px;
+  line-height: 160%;
+}
+
+@media screen and (max-width:500px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width:1300px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width:1800px) {
+  body {
+    font-size: 30px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@media screen and (min-width:2100px) {
+  body {
+    font-size: 36px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.tooltip {
+  font-size: 16px;
+  line-height: 0.8em;
+}
+
+nav.contents {
+  font-size: 2em;
+}
+
+@media screen and (max-width:900px) {
+  nav.contents {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width:900px) {
+  nav.contents > ol > li {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width:500px) {
+  nav.contents > ol > li {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width:325px) {
+  nav.contents > ol > li {
+    font-size: 1em;
+  }
+}
+
+nav.contents > ol > li > a.active {
+  font-size: 1.05em;
+}
+
+@media screen and (max-width:325px) {
+  nav.contents > ol > li > a.active {
+    line-height: 150%;
+  }
+}
+
+h1,
+h2,
+h3,
+header,
+cite,
+.balanced-list,
+.osf,
+div.sign {
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+.osf {
+  letter-spacing: 0;
+}
+
+div.sign {
+  font-size: 1.4em;
+}
+
+.heart {
+  font-size: 75%;
+}
+
+.fin {
+  font-size: 80%;
+}
+
+.img-caption,
+footer {
+  font-size: 0.8em;
+}
+
+p {
+  text-align: justify;
+}
+
+.bullet-list {
+  font-size: 0.92em;
+}
+
+p,
+ul {
+  text-indent: 1.25em;
+}
+
+.balanced-list,
+.img-caption,
+p.first,
+blockquote p,
+article.endnotes p {
+  text-indent: 0;
+}
+
+q {
+  text-indent: -0.4em;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.dedication {
+  text-align: right;
+}
+
+header,
+nav.contents,
+h1,
+h2,
+.balanced-list,
+a.continue,
+div.sign,
+footer {
+  text-align: center;
+}

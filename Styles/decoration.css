@@ -1,0 +1,90 @@
+header,
+article,
+a.continue,
+.img-caption:before {
+  border-width: 1px;
+}
+
+header {
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+@media screen and (max-width:900px) {
+  nav.contents {
+    border-width: 1px;
+    border-left-style: solid;
+    border-right-style: solid;
+  }
+}
+
+article {
+  border-style: solid;
+  border-bottom-style: none;
+}
+
+hr {
+  width: 4em;
+  border-style: double none none none;
+  border-width: 4px 0 0 0;
+}
+
+a.continue {
+  border-top-style: solid;
+}
+
+.img-caption:before {
+  content: ' ';
+  display: block;
+  width: 25%;
+  height: 1em;
+  border-top-style: solid;
+}
+
+div.sign {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.tooltip {
+  /* CSS3 extras */
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+nav.contents a,
+nav.contents a:hover,
+a.endnote-anchor,
+a.continue,
+a.discreet,
+article.contents a {
+  text-decoration: none;
+}
+
+a.continue:hover {
+  text-decoration: underline;
+}
+
+nav.contents a,
+a.discreet {
+  outline: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+ul.bullet-list {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+q:before {
+  content: none;
+}
+
+q:after {
+  content: none;
+}

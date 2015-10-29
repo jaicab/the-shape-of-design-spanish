@@ -1,0 +1,258 @@
+body,
+nav,
+ol,
+ul,
+header h1,
+p,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a.continue,
+q,
+cite {
+  display: block;
+}
+
+article,
+header {
+  max-width: 30em;
+}
+
+article {
+  margin: 0 auto;
+  padding: 0 3em;
+}
+
+@media screen and (max-width:900px) {
+  article {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+a.continue {
+  padding: 3em 3em 3.25em 3em;
+  margin-top: 4em;
+  margin-bottom: 0;
+  margin-left: -3em;
+}
+
+@media screen and (max-width:900px) {
+  a.continue {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: -1em;
+  }
+}
+
+article.ack {
+  padding-bottom: 4em;
+}
+
+h1,
+h2 {
+  padding-top: 5em;
+  margin-top: 0;
+  margin-bottom: 4em;
+}
+
+@media screen and (max-width:500px) {
+  h1,
+  h2 {
+    margin-top: -2em;
+  }
+}
+
+.endnotes h3 {
+  margin-top: 3.2em;
+  margin-bottom: 0;
+}
+
+header {
+  padding-bottom: 5em;
+  padding: 1em 3em;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:900px) {
+  header {
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media screen and (max-width:500px) {
+  header a {
+    display: block;
+  }
+}
+
+blockquote {
+  padding-left: 2.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+@media screen and (max-width:500px) {
+  blockquote {
+    padding-left: 0;
+  }
+}
+
+blockquote p {
+  margin: 1.5em 0;
+}
+
+article.endnotes p,
+article.opening p {
+  margin: 1.6em 0;
+}
+
+article.opening p.dedication {
+  margin: 6.4em 0;
+}
+
+cite {
+  margin-bottom: 1.6em;
+}
+
+nav.contents {
+  float: left;
+  width: 1em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -6.25em;
+  margin-left: -10.5em;
+}
+
+@media screen and (max-width:900px) {
+  nav.contents {
+    float: none;
+    width: inherit;
+    position: inherit;
+    top: inherit;
+    left: inherit;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 30em;
+  }
+}
+
+ul {
+  margin: 1em 0;
+}
+
+ul.balanced-list {
+  margin: 1.6em 0;
+}
+
+nav.contents > ol > li {
+  overflow: hidden;
+}
+
+@media screen and (max-width:900px) {
+  nav.contents > ol > li {
+    display: inline-block;
+    padding-right: 0.35em;
+  }
+}
+
+@media screen and (max-width:500px) {
+  nav.contents > ol > li {
+    padding: 0 5px 0 0;
+    margin: 0;
+  }
+}
+
+nav.contents > ol > li.sep {
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width:900px) {
+  nav.contents > ol > li.sep {
+    margin-bottom: 0;
+    margin-right: 0.4em;
+  }
+}
+
+@media screen and (max-width:900px) {
+  nav.contents > ol > li > a {
+    display: inline-block;
+    margin-top: 20px;
+  }
+}
+
+nav.contents > ol > li > a.active {
+  margin-left: -1px;
+  margin-top: -3px;
+}
+
+@media screen and (max-width:900px) {
+  nav.contents > ol > li > a.active {
+    position: relative;
+    top:-2px;
+  }
+}
+
+.tooltip {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  left: 1.25em;
+  padding: 0.5em;
+  margin-top: 0;
+  margin-left: 1.25em;
+  max-height: 30px;
+}
+
+a:hover > .tooltip {
+  display: inline;
+}
+
+@media screen and (max-width:900px) {
+  a:hover > .tooltip {
+    display: none;
+  }
+}
+
+a.continue,
+article img {
+  width: 100%;
+}
+
+div.img-block {
+  margin: 1.6em 0;
+}
+
+img.illo {
+  padding-top: 5em;
+}
+
+@media screen and (max-width:500px) {
+  img.illo {
+    padding-top: 1.5em;
+  }
+}
+
+.img-caption {
+  margin-bottom: 3.2em;
+  padding: 0;
+}
+
+div.sign {
+  max-width: 70%;
+  margin: 2em auto;
+  padding: 1em 1.5em;
+}
+
+footer {
+  padding: 2em 0;
+}
