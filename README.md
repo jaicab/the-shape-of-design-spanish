@@ -1,10 +1,10 @@
 # La forma del diseño
 
->Disclaimer: This is a translation into Spanish of the book _The Shape of Design_, written by Frank Chimero.
+>English disclaimer: This is a Spanish translation of the book _The Shape of Design_, written by Frank Chimero. 
 
 Traducción al español del libro _The Shape of Design_, escrito por Frank Chimero.
 Disfruté mucho con la lectura de este libro y dado que no es para nada técnico y que mucha gente podría disfrutarlo, me parece una pena que se quede atrapado en el inglés.
-
+El original está disponible en [read.shapeofdesignbook.com](http://read.shapeofdesignbook.com/) bajo la misma licencia.
 
 ## Progreso (1/14)
 - [Prólogo](jaicab.com/the-shape-of-design-spanish/)
