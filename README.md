@@ -7,7 +7,7 @@ Disfruté mucho con la lectura de este libro y dado que no es para nada técnico
 El original está disponible en [read.shapeofdesignbook.com](http://read.shapeofdesignbook.com/) bajo la misma licencia.
 
 ## Progreso (1/14)
-- [Prólogo](jaicab.com/the-shape-of-design-spanish/)
+- [Prólogo](http://jaicab.com/the-shape-of-design-spanish/)
 
 
 ## Contribuir
